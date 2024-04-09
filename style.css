@@ -1,0 +1,611 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 500;
+
+
+
+}
+
+.visitnow {
+    margin: auto;
+    position: relative;
+    bottom: 15rem;
+    left: 45rem;
+    width: 10rem;
+}
+
+video {
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    filter: brightness(0.7);
+}
+
+.ul-list {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    /* background: linear-gradient(black, red); */
+    /* background-color: rgb(189, 204, 208); */
+    width: 100%;
+    min-height: 4rem;
+    position: fixed;
+    top: 0;
+
+    list-style: none;
+}
+
+.ul-list li a {
+    color: rgb(60, 59, 59);
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-right: 3rem;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+
+
+
+
+body,
+html {
+    width: 100%;
+    overflow-x: clip;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    background-color: lavender;
+    height: 66vh;
+    /* background: linear-gradient( white, rgba(145, 207, 227)); */
+
+}
+
+.header-section img {
+    width: 100%;
+    position: absolute;
+    height: 26rem;
+    top: 5rem;
+    filter: brightness(0.7);
+
+
+}
+
+
+.navwar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a8e2ff;
+    width: 100%;
+    min-height: 4rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 1.5px black;
+}
+
+.logo-in-class {
+    color: rgb(18 42 84);
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 2px 7px;
+    margin-top: 6px;
+}
+
+.ul-list a {
+    color: rgb(60, 59, 59);
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-right: 3rem;
+    font-weight: 600;
+
+}
+
+.ul-list :hover {
+    text-decoration: underline;
+    transition: 0.5s all ease-in;
+
+
+}
+
+.title-business {
+
+    /* border: 2px solid red; */
+    width: 30rem;
+    min-height: 10rem;
+    margin-top: 18rem;
+    margin-left: 5rem;
+    padding: 2rem;
+}
+
+.font-text {
+    font-size: 5rem;
+    position: absolute;
+    top: 33rem;
+    color: #ffffffd6;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: transparent;
+    filter: brightness(0.9);
+
+
+}
+
+
+
+
+
+
+/* 
+
+.Get-started {
+    margin-left: 10rem;
+    margin-top: -1rem;
+
+
+} */
+/* 
+.Get-started :hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+} */
+/* 
+.Get-started #get-more {
+    font-size: 1.1rem;
+    width: 9rem;
+    min-height: 2.6rem;
+    border-radius: 2px;
+    background: #08656e;
+    color: white;
+    outline: none;
+    border: transparent;
+} */
+
+.yoga-image img {
+    width: 33rem;
+    position: relative;
+    top: 5rem;
+    left: 19rem;
+}
+
+.inner-section {
+    display: flex;
+}
+
+.middle-section-title {
+    display: flex;
+
+}
+
+.intro-yoga {
+    height: 26rem;
+    width: 45rem;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    top: 25rem;
+    left: 5rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.image1-yoga img {
+    width: 34rem;
+    position: relative;
+    top: 20rem;
+    left: 13rem;
+    border: 1px solid black;
+    margin-right: 17rem;
+}
+
+.view-more {
+    position: relative;
+    top: 6rem;
+}
+
+.view-more #get-more1 {
+
+    font-size: 1.1rem;
+    width: 9rem;
+    min-height: 2.6rem;
+    outline: none;
+    position: relative;
+    left: 7.5rem;
+    background: #1a39ff;
+    border: transparent;
+    color: white;
+    border-radius: 2px;
+    top: 10.2rem;
+}
+
+.view-more :hover {
+    color: blue;
+}
+
+.typeOfyoga {
+    height: 44rem;
+    width: 100%;
+    margin-top: 27rem;
+    background-color: rgb(145 206 255 / 73%);
+}
+
+.detail-yoga {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    position: relative;
+    top: 6rem;
+    font-weight: 800;
+
+}
+
+.yoga-box {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    /* flex-wrap: wrap; */
+
+}
+
+.box1 {
+
+    width: 29rem;
+    height: 29rem;
+    /* border: 2px solid red; */
+    background: white;
+    box-shadow: 0px 0px 3px #aeabab;
+    border-radius: 6px;
+    margin: 1rem;
+
+}
+
+.box1 img {
+    width: 27.3rem;
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+    cursor: pointer;
+}
+
+.yogatitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0.3rem;
+
+
+}
+
+.yogadetails {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 1rem;
+    color: #000000;
+    margin-top: -1.2rem;
+
+}
+
+.before-footer {
+    height: 40rem;
+    width: 100%;
+
+    background: linear-gradient(white, rgba(145, 207, 227));
+    /* background: #feffff; */
+}
+
+.after-text {
+
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    margin-left: 3rem;
+    top: 6rem;
+    width: 46rem;
+}
+
+.before-image img {
+
+    width: 41rem;
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    bottom: 15rem;
+    right: 2rem;
+
+    /* box-shadow: 0px 0px 3px black; */
+    /* border: 2px solid red; */
+}
+
+.about-healthmen {
+    position: relative;
+    top: 5rem;
+    width: 31rem;
+    left: 3rem;
+    font-size: 1.1rem;
+
+}
+
+.footer-section {
+    height: 35rem;
+    width: 100%;
+    background-color: rgb(63 85 85);
+}
+
+.about-footer {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.about-footer li {
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.inside-list {
+    color: rgb(167 165 165);
+    position: relative;
+    top: 2rem;
+    margin: 10px;
+}
+
+.socail-media {
+    margin-top: auto;
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+
+.socail-media .fa-brands {
+    color: white;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.text-input {
+    position: relative;
+    left: 37rem;
+    top: 2.5rem;
+}
+
+#yourEmail {
+    width: 23rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    border: transparent;
+    font-size: 1rem;
+    background: #cecece;
+}
+
+#JoinNow {
+
+    font-size: 1.2rem;
+    width: 9rem;
+    min-height: 2.4rem;
+    border-radius: 0.3rem;
+    background: #000000;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    margin-top: 1rem;
+    border: transparent;
+    cursor: pointer;
+
+}
+
+.copy-write-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 7rem;
+    color: #000000c2;
+
+}
+
+.hover-button:hover {
+    background-color: #08656e;
+}
+
+.LoginNow :hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+
+.team-section {
+    height: 65vh;
+}
+
+.out-box {
+    height: 20rem;
+    width: 30rem;
+    margin: auto;
+    position: relative;
+    top: 1.8rem;
+    border-radius: 2px;
+    background: #02566d;
+    border: 0.3px solid;
+    margin-top: 8px;
+    box-shadow: 0px 0px 9px rgb(39, 39, 39);
+}
+
+.team-box {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    margin-top: 2rem;
+}
+
+.member-name {
+    position: relative;
+    top: 0.4rem;
+    left: -1rem;
+    width: 19rem;
+    text-align: center;
+    color: white;
+}
+
+.name1 {
+    font-size: 1.2rem;
+}
+
+.name2 {
+    margin-top: -1rem;
+}
+
+.teachers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    color: white;
+}
+
+.team-box img {
+    width: 11rem;
+    border-radius: 13rem;
+    height: 10rem;
+    border: 2px solid #f9f9f9;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.follw-us {
+    color: white;
+    position: absolute;
+    top: 5rem;
+    left: 4.3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.follw-us a {
+    color: white;
+}
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+    margin: 0px 4px;
+    cursor: pointer;
+
+}
+
+.team-sub-section {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.supporting-team {
+    height: 40rem;
+    background: linear-gradient(white, rgba(145, 207, 227));
+}
+
+.ece-teachers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.media-icons {
+    position: relative;
+    left: 6rem;
+}
+
+.back-image {
+    height: 21rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
+.copy-write {
+    color: white;
+}
+
+.supporting-faculty {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+    font-weight: bold;
+}
+
+.card {
+
+    margin-top: 5rem;
+}
+
+.card-body {
+    margin-left: 2rem;
+}
+
+.description {
+    position: relative;
+    top: 0rem;
+    right: 1rem;
+}
+
+.description1 {
+    position: relative;
+    top: 0rem;
+    right: 1rem;
+
+}
+
+.combine {
+    display: flex;
+}
+
+.box-1 {
+    display: flex;
+}
+
+.box-2 {
+    margin: 0px 5rem;
+}
+
+.btn {
+    margin-right: 0.4rem;
+}

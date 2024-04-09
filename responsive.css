@@ -1,0 +1,241 @@
+#hamburger {
+    font-size: 1.7rem;
+    font-weight: 900;
+    position: relative;
+    right: 1rem;
+
+}
+
+@media screen and (max-width: 1115px) {
+
+    .ul-list li {
+        display: none;
+    }
+
+    .video-class {
+        width: 100%;
+        height: 50%;
+    }
+
+    .video-class {
+        width: 100%;
+        height: 100%;
+        filter: brightness(0.5);
+    }
+
+    .btn-info {
+        color: #fff;
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+        margin-left: -22rem;
+        margin-top: 1rem;
+    }
+
+    .font-text {
+        font-size: 3rem;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .btn-info {
+        color: #fff;
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+        margin-left: -38rem;
+        margin-top: 1rem;
+    }
+
+    .video-class {
+        width: 100%;
+        height: 100%;
+        filter: brightness(0.5);
+    }
+
+    .detail-yoga,
+    .title-details {
+        font-size: 2.2rem;
+        display: flex;
+        text-align: center;
+    }
+
+    .yoga-box {
+        display: flex;
+        justify-content: center;
+        margin: 5rem;
+        flex-wrap: wrap;
+    }
+
+    .typeOfyoga {
+        width: 100%;
+        margin-top: 27rem;
+        background-color: rgb(145 206 255 / 73%);
+        height: 110rem;
+    }
+
+    .before-text,
+    .after-text {
+        font-size: 2.2rem;
+        display: flex;
+        text-align: center;
+        position: relative;
+        left: -8px;
+    }
+
+    .before-image img {
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin-top: 23rem;
+        margin-left: 2rem;
+        padding: 0px 10px;
+    }
+
+    .before-footer {
+        height: 60rem;
+
+    }
+
+    .image-silder {
+        position: relative;
+        top: 0rem;
+        width: 100%;
+        right: 5rem;
+        padding: 0px 10px;
+    }
+
+
+    .supporting-faculty {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .one-button {
+        display: none;
+    }
+
+    .logo-in-class {
+        color: rgb(18 42 84);
+        font-size: 2rem;
+        font-weight: 800;
+        padding: 2px 7px;
+        margin-top: 6px;
+    }
+
+    .intro-yoga {
+
+
+        left: unset;
+        font-size: 1.1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .about-healthmen {
+        position: relative;
+        font-size: 1.1rem;
+        top: 6rem;
+        left: 6px;
+        width: 100%;
+        /* padding: 0px 8px; */
+        /* padding: 0px px; */
+    }
+
+    .box1 img {
+        width: 22.3rem;
+        display: flex;
+        justify-content: center;
+        height: 16rem;
+        cursor: pointer;
+    }
+
+    /* .box1 img {
+        width: 29rem;
+        display: flex;
+        justify-content: center;
+        height: 19rem;
+        cursor: pointer;
+    } */
+
+
+    .footer-section,
+    .about-footer {
+        flex-wrap: wrap;
+
+    }
+
+    .footer-section {
+        width: 100%;
+        background-color: rgb(63, 85, 85);
+        height: 64rem;
+        text-align: center;
+    }
+
+    .copy-write {
+        color: white;
+        position: absolute;
+        top: -6rem;
+    }
+
+    .socail-media .fa-brands {
+        color: white;
+        margin: 12px;
+        cursor: pointer;
+        margin-right: 1px;
+    }
+
+    .overall-box {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .click-events {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .carousel-inner img {
+        width: 80vh;
+        height: 100vh;
+        filter: brightness(0.6);
+    }
+
+    .copy-write {
+        color: white;
+        position: absolute;
+        top: -6rem;
+    }
+
+    .LoginNow {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+
+    .footer-section {
+        width: 100%;
+        background-color: rgb(63, 85, 85);
+        height: 64rem;
+        text-align: center;
+    }
+}
